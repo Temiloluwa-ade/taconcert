@@ -205,3 +205,9 @@ background-color: orange;
 /* We are missionaries
 We are people aimed at leading people to christ. */
 .contact-us-bgimage{background-image:url(assets/img/gdpr.jpg);background-position:50%;background-repeat:no-repeat;background-size:cover;text-align:center;padding:83px 0 68px}.contact-details .mdi{font-size:14px;color:#6e6e6e;border-radius:50px;border:1px solid hsla(0,0%,59.2%,.24);padding:3px 6px;margin-right:10px;transition:all .6s ease-in-out}.contact-details .mdi:hover{background:#a6a6a6;color:#fff}.contact-details a{color:#6e6e6e;transition:all .6s ease-in-out}.contact-details a:hover,footer a{color:red}footcontacter a:hover{color:#000}
+@media (max-width: 767px) {
+	.carousel-item{
+		width: auto;
+		height: max-content;
+	}
+}
